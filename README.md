@@ -7,7 +7,8 @@ Its concept is work in progress, and it is a Sequel yet to come of one of my old
 # Concept - About
 Staria has 3 Main Features:
 ## Economy
-- Currency: Rupees and Star coins
+**Currency**: Rupees and Star coins
+
 Rupees can be exchanged in a interactive shop for neat community features. 
 Star coins are very special, earned through invites. 
 
