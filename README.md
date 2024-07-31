@@ -1,28 +1,23 @@
-# staria
+# Staria
 **Economy & Community App for Discord**
 
-This project is a Typescript Project, using [discordx](https://github.com/discordx-ts/discordx). 
-Its concept is work in progress, and it is a Sequel yet to come of one of my old bot [Vixify](https://github.com/heliacer/Vixify). 
+This project is a TypeScript project, using [discordx](https://github.com/discordx-ts/discordx). Its concept is a work in progress, and it is a sequel yet to come of one of my old bots, [Vixify](https://github.com/heliacer/Vixify).
 
-# Concept - About
+## Concept - About
 Staria has 3 Main Features:
-## Economy
-**Currency**: Rupees and Star coins
 
-Rupees can be exchanged in a interactive shop for neat community features. 
-Star coins are very special, earned through invites. 
+### Economy
+**Currency**: Rupees and Star Coins
 
-## Offers
-Users have the option to make offers for free, in exchange for star coins
-Those offers are completely user-specific, but some could be "Logo-Design"
-The people offering will recieve those star coins, and can exchange it for other offers by other people
+Rupees can be exchanged in an interactive shop for neat community features. Star Coins are very special and are earned through invites.
 
-This system is a mutual beneficial system where no money is involved, only sharing and caring. 
+### Offers
+Users have the option to make offers for free, in exchange for Star Coins. These offers are completely user-specific, but some examples could be "Logo Design". The people offering will receive those Star Coins and can exchange them for other offers by other people. 
 
-## Competition
-Users may show off their creative projects / media / art, and each week the communty votes the top, resulting into a big Rupee award. 
+This system is mutually beneficial, where no money is involved, only sharing and caring.
 
+### Competition
+Users may show off their creative projects, media, or art, and each week the community votes for the top entry, resulting in a big Rupee award.
 
-# Installation
+## Installation
 -
- 
