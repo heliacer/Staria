@@ -1,8 +1,8 @@
 # staria
 **Economy & Community App for Discord**
 
-This project is a Typescript Project, using [discordx](https://discordx.js.org)
-Its concept is work in progress, and it is a Sequel yet to come of one of my old bot [Vixify](https://github.com/heliacer/Vixify)
+This project is a Typescript Project, using [discordx](https://discordx.js.org). 
+Its concept is work in progress, and it is a Sequel yet to come of one of my old bot [Vixify](https://github.com/heliacer/Vixify). 
 
 # Concept - About
 Staria has 3 Main Features:
