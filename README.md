@@ -3,7 +3,11 @@
 
 This project is a TypeScript project, using [discordx](https://github.com/discordx-ts/discordx). Its concept is a work in progress, and it is a sequel yet to come of one of my old bots, [Vixify](https://github.com/heliacer/Vixify).
 
-## Concept - About
+**Table of contents**
+- <a href='#installation'>Concept</a>
+- <a href='#installation'>Installation</a>
+
+## Concept
 Staria has 3 Main Features:
 
 ### Economy
@@ -20,4 +24,23 @@ This system is mutually beneficial, where no money is involved, only sharing and
 Users may show off their creative projects, media, or art, and each week the community votes for the top entry, resulting in a big Rupee award.
 
 ## Installation
--
+
+1. Install Dependecies
+
+```
+npm i
+```
+2. Build
+```
+npm run build
+```
+3. Setup bot token - *On linux use `export` instead of `set`*
+```
+set BOT_TOKEN=REPLACE_THIS_WITH_YOUR_BOT_TOKEN
+```
+4. Run - *Otherwise, you can use `npm run dev`*
+```
+npm run start
+```
+
+That's it 😊
