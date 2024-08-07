@@ -7,4 +7,8 @@ export class Example {
   messageDelete([message]: ArgsOf<"messageDelete">, client: Client): void {
     console.log("Message Deleted", client.user?.username, message.content);
   }
+  @On()
+  async memberJoin([member]: ArgsOf<"guildMemberAdd">, client: Client): Promise<void> {
+    await member.send(`Welcome to the server, ${member.user.username}!`);
+  }
 }
