@@ -30,7 +30,7 @@ Users may show off their creative projects, media, or art, and each week the com
 ```
 npm i
 ```
-2. Create `.env` file
+2. Create `.env` file in the root
 ```
 BOT_TOKEN=REPLACE_THIS_WITH_YOUR_BOT_TOKEN
 ```
