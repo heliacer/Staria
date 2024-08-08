@@ -30,15 +30,15 @@ Users may show off their creative projects, media, or art, and each week the com
 ```
 npm i
 ```
-2. Build
+2. Create `.env` file
+```
+BOT_TOKEN=REPLACE_THIS_WITH_YOUR_BOT_TOKEN
+```
+3. Build
 ```
 npm run build
 ```
-3. Setup bot token - *On linux use `export` instead of `set`*
-```
-set BOT_TOKEN=REPLACE_THIS_WITH_YOUR_BOT_TOKEN
-```
-4. Run - *Otherwise, you can use `npm run dev`*
+4. Run - *Otherwise use `npm run dev` instead of building it*
 ```
 npm run start
 ```
