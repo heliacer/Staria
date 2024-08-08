@@ -4,10 +4,10 @@ import { IntentsBitField } from "discord.js";
 import { Client } from "discordx";
 
 export const bot = new Client({
-  // To use only guild command
-  // botGuilds: [(client) => client.guilds.cache.map((guild) => guild.id)],
+  // Only sync to dev guild
+  botGuilds: ["1268225279613206580"],
 
-  // Discord intents
+  // intents
   intents: [
     IntentsBitField.Flags.Guilds,
     IntentsBitField.Flags.GuildMembers,

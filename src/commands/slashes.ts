@@ -14,7 +14,7 @@ export class SlashExample {
     const commands = MetadataStorage.instance.applicationCommands.map((cmd) => {
       return { description: cmd.description, name: cmd.name };
     });
-
+    console.log(commands);
     const pages = commands.map((cmd, i) => {
       const embed = new EmbedBuilder()
         .setFooter({
@@ -23,7 +23,7 @@ export class SlashExample {
         .setTitle("**Slash command info**")
         .addFields(
           { name: "Name", value: cmd.name },
-          {name: "Description",value: cmd.description,}
+          { name: "Description", value: cmd.description || "No description aviable",}
         );
 
       return { embeds: [embed] };
