@@ -15,7 +15,8 @@
     "@discordx/importer": "^1.3.1",
     "@discordx/pagination": "^3.5.5",
     "discord.js": "^14.15.3",
-    "discordx": "^11.11.1"
+    "discordx": "^11.11.1",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/node": "^20.14.4",
