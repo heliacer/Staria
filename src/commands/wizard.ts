@@ -1,4 +1,4 @@
-import { Pagination } from "@discordx/pagination";
+import { Pagination, PaginationType } from "@discordx/pagination";
 import type { CommandInteraction } from "discord.js";
 import { Discord, Slash } from "discordx";
 import { wizardPages } from "../assets/wizardPages.js";
@@ -7,10 +7,11 @@ import { wizardPages } from "../assets/wizardPages.js";
 export class SetupWizard {
   @Slash({
     name: "setup",
-    description: "Let's you customise the bot",
+    description: "Let's you customise staria",
   })
   async pages(interaction: CommandInteraction): Promise<void> {
-    const pagination = new Pagination(interaction, wizardPages);
+    const options = { showStartEnd: false, type: PaginationType.Button }
+    const pagination = new Pagination(interaction, wizardPages, options);
     await pagination.send();
   }
 }
