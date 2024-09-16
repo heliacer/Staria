@@ -2,6 +2,7 @@ import { dirname, importx } from "@discordx/importer";
 import type { Interaction, Message } from "discord.js";
 import { IntentsBitField } from "discord.js";
 import { Client } from "discordx";
+import "dotenv/config";
 
 export const bot = new Client({
   // To use only guild command
@@ -36,9 +37,9 @@ bot.once("ready", () => {
   // This is useful when moving from guild commands to global commands
   // It must only be executed once
   //
-  //  await bot.clearApplicationCommands(
-  //    ...bot.guilds.cache.map((g) => g.id)
-  //  );
+  void bot.clearApplicationCommands(
+    ...bot.guilds.cache.map((g) => g.id)
+  );
 
   console.log("Bot started");
 });
